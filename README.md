@@ -19,13 +19,13 @@ Module 1:
 Ví dụ:
 
 PHP
-
+```
 <?php
     echo "Chào mừng bạn đến với PHP!";
     $ten = "Việt Nam";
     echo "Đất nước của tôi là " . $ten;
 ?>
-
+```
 - Biến: Biến trong PHP bắt đầu bằng ký tự $.
 
 - Ghi chú (Comment): Bạn có thể sử dụng // cho một dòng hoặc /* ... */ cho nhiều dòng để ghi chú.
@@ -42,7 +42,7 @@ PHP
 - switch: Dùng để chọn một trong nhiều khối mã để thực thi.
 
 Ví dụ:
-
+```
 <?php
     $diem = 8;
     if ($diem >= 9) {
@@ -53,7 +53,7 @@ Ví dụ:
         echo "Cố gắng hơn nhé!";
     }
 ?>
-
+```
 Vòng lặp (Loops):
 
 - for: Lặp qua một khối mã một số lần nhất định.
@@ -65,15 +65,15 @@ Vòng lặp (Loops):
 - foreach: Lặp qua các phần tử của một mảng.
 
 Ví dụ:
-
+```
 <?php
     for ($i = 1; $i <= 5; $i++) {
         echo "Số: " . $i . "<br>";
     }
 ?>
-
+```
 1.4 Hàm
-
+```
 <?php
     function chaoMung($ten) {
         return "Xin chào, " . $ten . "!";
@@ -81,7 +81,7 @@ Ví dụ:
 
     echo chaoMung("Minh Anh");
 ?>
-
+```
 1.5 Vai trò của PHP trong phát triển ứng dụng web
 - PHP đóng vai trò là ngôn ngữ phía máy chủ (server-side). Khi người dùng truy cập một trang web, máy chủ sẽ xử lý mã PHP để tạo ra một tệp HTML thuần rồi gửi về trình duyệt của người dùng.
 
