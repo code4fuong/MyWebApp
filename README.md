@@ -83,16 +83,29 @@ Ví dụ:
 ?>
 ```
 1.5 Vai trò của PHP trong phát triển ứng dụng web
-- PHP đóng vai trò là ngôn ngữ phía máy chủ (server-side). Khi người dùng truy cập một trang web, máy chủ sẽ xử lý mã PHP để tạo ra một tệp HTML thuần rồi gửi về trình duyệt của người dùng.
+PHP giữ vai trò cốt lõi trong lập trình web phía server, cụ thể:
 
-- Tạo nội dung động: Tạo ra các trang web có nội dung thay đổi linh hoạt (ví dụ: hiển thị bài viết mới, danh sách sản phẩm).
+Xử lý dữ liệu từ biểu mẫu (form) người dùng.
 
-- Xử lý biểu mẫu (Form Handling): Thu thập dữ liệu từ các biểu mẫu HTML (ví dụ: đăng ký, đăng nhập).
+Kết nối và thao tác với cơ sở dữ liệu.
 
-- Tương tác với cơ sở dữ liệu: Kết nối và thao tác với các hệ quản trị cơ sở dữ liệu như MySQL, PostgreSQL để lưu trữ và truy xuất dữ liệu.
+Control/Điều khiển nôi dung động (dynamic content) từ CSDL về View hoặc từ View về Model (CSDL).
 
-- Quản lý phiên (Session Management): Lưu trữ thông tin người dùng giữa các lần truy cập trang.
+Xử lý các nghiệp vụ phát triển phần mềm: Ví dụ:
 
-- Tạo API: Xây dựng các dịch vụ web để ứng dụng khác có thể tương tác.
+Xử lý xác thực, định dạnh và phần quyền người dùng (login, register).
+CRUD
+Phân tích xử lý nghiệp vụ doanh nghiệp (business logic)
+Tích hợp dễ dàng với các framework Frontend, HTML, CSS, JavaScript.
 
-- Hầu hết các trang web lớn như WordPress, Facebook, Wikipedia đều được xây dựng hoặc có sử dụng PHP, cho thấy tầm quan trọng của ngôn ngữ này trong ngành công nghiệp web.
+Tạo API hoặc làm việc với JSON, XML.
+
+PHP thường được sử dụng để xây dựng các hệ thống như:
+
+Website thương mại điện tử
+
+Hệ quản trị nội dung (CMS) như WordPress, Joomla
+
+Diễn đàn (forums), mạng xã hội
+
+Web service, RESTful API
