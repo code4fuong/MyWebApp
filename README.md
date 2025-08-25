@@ -20,11 +20,12 @@ Ví dụ:
 
 PHP
 
- <?php
+<?php
     echo "Chào mừng bạn đến với PHP!";
     $ten = "Việt Nam";
     echo "Đất nước của tôi là " . $ten;
- ?>
+?>
+
 Biến: Biến trong PHP bắt đầu bằng ký tự $.
 
 Ghi chú (Comment): Bạn có thể sử dụng // cho một dòng hoặc /* ... */ cho nhiều dòng để ghi chú.
@@ -41,7 +42,8 @@ if...else...elseif: Dùng để thực thi các khối mã khác nhau dựa trê
 switch: Dùng để chọn một trong nhiều khối mã để thực thi.
 
 Ví dụ:
- <?php
+
+<?php
     $diem = 8;
     if ($diem >= 9) {
         echo "Xuất sắc!";
@@ -50,7 +52,7 @@ Ví dụ:
     } else {
         echo "Cố gắng hơn nhé!";
     }
- ?>
+?>
 
 Vòng lặp (Loops):
 
@@ -63,20 +65,23 @@ do...while: Tương tự while, nhưng khối mã sẽ được thực thi ít n
 foreach: Lặp qua các phần tử của một mảng.
 
 Ví dụ:
- <?php
+
+<?php
     for ($i = 1; $i <= 5; $i++) {
         echo "Số: " . $i . "<br>";
     }
- ?>
+?>
 
 1.4 Hàm
- <?php
+
+<?php
     function chaoMung($ten) {
         return "Xin chào, " . $ten . "!";
     }
 
-    echo chaoMung("Hoang Nghia");
- ?>
+    echo chaoMung("Minh Anh");
+?>
+
 1.5 Vai trò của PHP trong phát triển ứng dụng web
 PHP đóng vai trò là ngôn ngữ phía máy chủ (server-side). Khi người dùng truy cập một trang web, máy chủ sẽ xử lý mã PHP để tạo ra một tệp HTML thuần rồi gửi về trình duyệt của người dùng.
 
